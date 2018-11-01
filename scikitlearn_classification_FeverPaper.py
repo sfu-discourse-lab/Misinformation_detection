@@ -1,6 +1,7 @@
-## Taken from: http://scikit-learn.org/stable/auto_examples/text/document_classification_20newsgroups.html
+# Author: Fatemeh Torabi Asr
+#         ftasr@github
 
-
+## Classification code partially taken from: http://scikit-learn.org/stable/auto_examples/text/document_classification_20newsgroups.html
 # Author: Peter Prettenhofer <peter.prettenhofer@gmail.com>
 #         Olivier Grisel <olivier.grisel@ensta.org>
 #         Mathieu Blondel <mathieu@mblondel.org>
