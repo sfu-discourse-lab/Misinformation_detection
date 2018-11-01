@@ -294,12 +294,17 @@ def load_data_snopes312(file_name="../data/snopes/snopes_checked_v02_forCrowd.cs
     return texts, labels
 
 
-texts_test1, labels_test1 = load_data_snopes312()#load_data_combined("../data/buzzfeed-debunk-combined/buzzfeed-v02.txt")#load_data_rubin()#load_data_combined("../data/buzzfeed-debunk-combined/rumor-v02.txt")#load_data_rubin()#load_data_liar("../data/liar_dataset/test.tsv")
-## USE LIAR DATA FOR TRAINING A MODEL AND TEST DATA BOTH FROM LIAR AND BUZZFEED
-texts_train, labels_train = load_data_rashkin("../data/rashkin/xtrain.txt")#load_data_liar("../data/liar_dataset/train.tsv")#load_data_rashkin("../data/rashkin/xtrain.txt")#load_data_liar("../data/liar_dataset/train.tsv")#
+
+
+#Please contact Rashkin et al. to obtain data for training.
+texts_train, labels_train = load_data_rashkin("../data/rashkin/xtrain.txt")
 ##texts_valid, labels_valid = load_data_liar("../data/liar_dataset/valid.tsv")
 #texts_test1, labels_test1 = load_data_rashkin("../data/rashkin/balancedtest.txt")
 
+# Small and Validated Test Datasets:
+texts_test1, labels_test1 = load_data_snopes312("../data/snopes/snopes_checked_v02.csv")
+#texts_test1, labels_test1 = load_data_combined("../data/buzzfeed/buzzfeed-v02.txt")
+#texts_test1, labels_test1 = load_data_rubin()
 
 
 # texts, labels =  load_data_combined("../data/buzzfeed-debunk-combined/all-v02.txt")
