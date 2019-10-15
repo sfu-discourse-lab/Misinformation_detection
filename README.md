@@ -7,5 +7,5 @@ Fatemeh Torabi Asr and Maite Taboada, 2018. ["The Data Challenge in Misinformati
 Fatemeh Torabi Asr and Maite Taboada, 2019. ["Big Data and Quality Data for Fake News and Misinformation Detection"](https://doi.org/10.1177/2053951719843310). Big Data & Society. January-June 2019: 1-14.  
 
 To cite the data, please use:
-Fatemeh Torabi Asr and Maite Taboada (2019) MisInfoText. A collection of news articles, with false and true labels. Dataset.
+Fatemeh Torabi Asr and Maite Taboada (2019) [MisInfoText](https://github.com/sfu-discourse-lab/MisInfoText). A collection of news articles, with false and true labels. Dataset.
 
